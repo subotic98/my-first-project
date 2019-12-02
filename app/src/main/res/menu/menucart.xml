@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/iconcart"
+        android:icon="@drawable/cart"
+        android:title="Cart"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/mnDM"
+        android:title="Danh Mục"
+        app:showAsAction="never">
+        <menu >
+            <item
+                android:id="@+id/itemBiaa"
+                android:title="Biaaaaa" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnLogout"
+        android:title="Đăng xuất" />
+</menu>
